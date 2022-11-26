@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Main color-->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_of_app">#121212</color>
+    <color name="background_of_edit_text"> #1b1b1b  </color>
+    <color name="orange">#FF9802</color>
+    <color name="green">  #77D970  </color>
+    <color name="purple"> #9D84B7  </color>
+    <color name="white_card">   #cfd6e0  </color>
+    <color name="gray">    #9A9483 </color>
+    <color name="yasi">  #787A91  </color>
+
+
+
+</resources>

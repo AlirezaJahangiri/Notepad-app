@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Notify" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:statusBarColor" tools:targetApi="lollipop">  #121212   </item>
+
+
+        <item name="android:windowDisablePreview">true</item>
+
+        <item name="colorPrimary"> @color/background_of_edit_text  </item>
+
+
+    </style>
+
+    <item name="background_app" type="color">   #121212    </item>
+    <item name="background_of_recycler_view" type="color"> #1b1b1b  </item>
+    <item name="text_Color" type="color">  #FFFFFFFF  </item>
+    <item name="bg_toast" type="color">  #FF9802 </item>
+    <item name="color_dots_page_selected" type="color">     #FF9802    </item>
+    <item name="color_of_dots" type="color">     #F7F7F7         </item>
+
+
+
+
+    // sweet alert dialog colors
+    <color name="sweet_dialog_bg_color"> #1b1b1b    </color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="button_text_color">#1b1b1b </color>
+    <color name="error_stroke_color">#FF9802</color>
+    <color name="float_transparent">#1b1b1b</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="material_blue_grey_80">#FFFFFFFF</color>
+    <color name="material_blue_grey_90">#FFFFFFFF</color>
+    <color name="material_blue_grey_95">#FFFFFFFF</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+    <color name="red_btn_bg_color">#F7F7F7</color>
+    <color name="red_btn_bg_pressed_color">#F7F7F7</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#FF9802</color>
+
+    <style name="MyDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert"/>
+
+    <style name="MySwitch">
+        <item name="colorControlActivated"> #FF9802</item>
+    </style>
+
+</resources>

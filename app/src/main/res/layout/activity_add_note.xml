@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_note"
+    android:background="@color/background_app">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:id="@+id/layout_1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="All Notes"
+            android:textColor="@color/orange"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/back_drawble"
+            android:layout_weight="14"
+            android:id="@+id/back_button"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/orange"
+            android:text="Save"
+            android:id="@+id/savebtn"
+            android:layout_weight="2"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_1"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/layout_2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_Color"
+            android:textSize="33dp"
+            android:text="Add New Note"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_2"
+        android:id="@+id/layout_4"
+        android:layout_margin="15dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edit_text"
+            android:padding="10dp"
+            android:hint="Date and Time (Optional)"
+            android:id="@+id/timeinput"
+            android:textColorHint="@color/text_Color"
+            android:textColor="@color/text_Color"
+            android:lines="1"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_4"
+        android:layout_margin="15dp"
+        android:id="@+id/layout_3">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edit_text"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:hint="Title (Optional)"
+            android:id="@+id/titleinput"
+            android:textColorHint="@color/text_Color"
+            android:textColor="@color/text_Color"
+            android:lines="1"
+            android:inputType="text"
+            android:gravity="top"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_3"
+        android:layout_margin="15dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_edit_text"
+            android:padding="10dp"
+            android:hint="Description"
+            android:textColorHint="@color/text_Color"
+            android:gravity="top"
+            android:lines="22"
+            android:id="@+id/descriptioninput"
+            android:textColor="@color/text_Color"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

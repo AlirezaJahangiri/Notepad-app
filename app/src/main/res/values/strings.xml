@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="about_text">     "I'm Alireza Jahangiri an underground programmer from Iran🇮🇷 This is my first effort to achieve my dreams! The first version of this app was released on 2022 january 26th.  Love you all❤"️     </string>
+    <string name="theme_card_view_title">   "Theme"   </string>
+    <string name="theme_card_view_description">  "Set light or dark mode"  </string>
+    <string name="about_card_view_title">   "About"   </string>
+    <string name="about_card_view_description">  "A little information about developer and app"  </string>
+
+
+</resources>

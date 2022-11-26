@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background_of_recycler_view"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleoutput"
+        android:textSize="20dp"
+        android:textColor="@color/text_Color"
+        tools:text="My title"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionoutput"
+        android:layout_below="@id/titleoutput"
+        android:textColor="@color/text_Color"
+        tools:text="My long long long descrption"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeoutput"
+        android:layout_below="@id/descriptionoutput"
+        android:textSize="12dp"
+        android:gravity="end"
+        android:textColor="@color/text_Color"
+        tools:text="Jan 21 2020 "
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
