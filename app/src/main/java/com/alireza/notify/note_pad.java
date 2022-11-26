@@ -43,6 +43,8 @@ public class note_pad extends AppCompatActivity {
         setContentView(R.layout.activity_note_pad);
 
 
+
+
         //hide the title of action bar
 //        getSupportActionBar().setDisplayShowTitleEnabled(false);
 
