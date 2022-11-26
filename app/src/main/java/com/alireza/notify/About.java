@@ -62,7 +62,7 @@ private  Button btn_download_telegram;
 
                         //intent_instagram
 
-                        Uri uri = Uri.parse("http://instagram.com/_u/awli_82");
+                        Uri uri = Uri.parse("http://instagram.com/_u/");
 
                         Intent i= new Intent(Intent.ACTION_VIEW,uri);
 
@@ -73,7 +73,7 @@ private  Button btn_download_telegram;
                         } catch (ActivityNotFoundException e) {
 
                             startActivity(new Intent(Intent.ACTION_VIEW,
-                                    Uri.parse("http://instagram.com/_u/awli_82")));
+                                    Uri.parse("http://instagram.com/_u/")));
                         }
 
 
@@ -109,7 +109,7 @@ private  Button btn_download_telegram;
 
                         try {
                             Intent telegramIntent = new Intent(Intent.ACTION_VIEW);
-                            telegramIntent.setData(Uri.parse("http://telegram.me/caption"));
+                            telegramIntent.setData(Uri.parse("http://telegram.me/"));
                             telegramIntent.setPackage("org.telegram.messenger");
                             startActivity(telegramIntent);
 
